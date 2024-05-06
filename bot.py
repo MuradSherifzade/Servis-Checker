@@ -8,7 +8,7 @@ app = Client("my_bot", api_id="ur_api_id", api_hash="ur_api_id", bot_token="ur_b
 ADMIN_USER_ID = "ur_id"
 
 with open("services.json") as file:
-     services = json.load(file)["services"]
+     services = json.load(file)["services"] # test
 
 with open('log.txt', 'r') as file:
             lines = file.readlines()
